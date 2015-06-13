@@ -54,7 +54,9 @@ var Shape = Type({
 
 The values of a type can also have no fields at all.
 
+```javascript
 var NotifySetting = Type({Mute: [], Vibrate: [], Sound: [Number]});
+```
 
 ### Constructing a union type
 
